@@ -1,4 +1,4 @@
-p = 
+p = 5
 a = 0
 def prime(p,a):
     for i in range(1,p+1):
