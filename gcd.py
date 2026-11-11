@@ -1,16 +1,14 @@
-a = 18
-b = 24
-if a > b:
-    x = a
-    y = b
-else:
-    x = b
-    y = a
+a = 26456778345
+b = 16875698456
+if a < b:
+    temp = a
+    a = b
+    b = temp
 while True:
-    z = x%y
+    z = a%b
     if z == 0:
-        print(y)
+        print(b)
         break
     else:
-        x = y
-        y = z
+       a=b
+       b=z
