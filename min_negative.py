@@ -1,8 +1,12 @@
 # Find the Min Negative Number in an Array
-lst = [10,-4,-2,5,-6]
-a = 0
-b=lst[0]
-for i in range(0,len(lst)):
-    if lst[i] < 0 and lst[i] < b:
-        b = lst[i]
-print(b)
+lst = [-15,-3,8,-10,5,-7]
+if lst is None:
+    print("Invaild")
+elif len(lst)==0:
+    print("Invaild")
+else:
+    b = lst[0]
+    for i in range(0,len(lst)):
+        if b>lst[i] and lst[i]<0:
+            b=lst[i]
+    print(b)
