@@ -1,3 +1,5 @@
+
+# print highest max number occurences
 a = [3,3,2,2]
 c1 = 0
 v1 = 0
